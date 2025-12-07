@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace GerenciadorDeHabitos
 {
-    internal class HabitosModel
+    public class HabitosModel
     {
         public int Id { get; set; }
         public string Nome {  get; set; }
         public bool Status  { get; set; }
-
     }
 }
